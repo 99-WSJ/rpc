@@ -14,7 +14,7 @@ import part1.Server.provider.ServiceProvider;
  */
 public class TestServer {
     public static void main(String[] args) {
-        UserService userService=new UserServiceImpl();
+        UserService userService=new UserServiceImpl(); // 1.0
 
         ServiceProvider serviceProvider=new ServiceProvider();
         serviceProvider.provideServiceInterface(userService);
